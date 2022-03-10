@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="btn-results">
+        <h2 class="result-header">Results</h2>
+        <button class="result-table"><img src="assets/list.svg" alt="list" class="resPic"></button>
+    </div>
+    <div class="wrapper">
+            <h1>Tic Tac Toe</h1>
+        <div id="play-area">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+
+    <div id="modal-wrapper">
+        <div class="overlay"></div>
+        <div class="modal-window">
+            <div class="message"></div>
+            <div class="msgSteps"></div>
+            <button id="play-again">Start New Game</button>
+        </div>
+
+    </div>
+    <div class="hidden-results">
+        <img src="assets/close.svg" alt="cross" id="closeBtn">
+        <div class="table-header">
+            <div class="winner">Winner</div>
+            <div class="winner">Steps</div>
+        </div>
+        <div id="res-cont">
+            <div class="winData"></div>
+            <div class="data"></div>
+            <div class="winData"></div>
+            <div class="data"></div>
+            <div class="winData"></div>
+            <div class="data"></div>
+            <div class="winData"></div>
+            <div class="data"></div>
+            <div class="winData"></div>
+            <div class="data"></div>
+            <div class="winData"></div>
+            <div class="data"></div>
+            <div class="winData"></div>
+            <div class="data"></div>
+            <div class="winData"></div>
+            <div class="data"></div>
+            <div class="winData"></div>
+            <div class="data"></div>
+            <div class="winData"></div>
+            <div class="data"></div>
+        </div>
+    </div>
+    <audio src="assets/audio/sound.mp3" id="sound"></audio>
+    <audio src="assets/audio/start-again.mp3" id="sound2"></audio>
+    <audio src="assets/audio/results.mp3" id="sound3"></audio>
+    <footer>
+        <a href="https://github.com/ElenaAleksandrovna?tab=repositories"><img src="assets/footer/github.png" width="75px" height="55px" alt="github-icon" class="github"></a>
+        <h3>2022</h3>
+        <a href="https://rs.school/js/"><img src="assets/footer/rs_school_js.svg" alt="rsschool-logo" height="55" class="rsschool"></a>
+    </footer>  
+    <script src="index.js"></script>
+</body>
+</html>
